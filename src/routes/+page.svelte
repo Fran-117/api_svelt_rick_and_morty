@@ -1,5 +1,5 @@
 <script lang="ts">
-
+    import Body from './Body.svelte';
 </script>
 
 <svelte:head>
@@ -8,10 +8,12 @@
 </svelte:head>
 
 <section>
+
 	<h1>
 		API de Rick and Morty y Pokemon
 	</h1>
 
+	<Body />
 </section>
 
 <style>

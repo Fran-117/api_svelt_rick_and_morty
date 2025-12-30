@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Header from './Cabecera.svelte';
 	import './layout.css';
-
 	let { children } = $props();
 </script>
 
@@ -47,6 +46,19 @@
 
 	footer a {
 		font-weight: bold;
+	}
+
+	.imagenes {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: rgb(255, 255, 255);
+		border: 1px solid #464545ce;
+		border-radius: 8px;
+		padding: 1rem;
+		text-align: center;	
+		box-shadow: 0 2px 4px rgb(0, 0, 0);
 	}
 
 	@media (min-width: 480px) {

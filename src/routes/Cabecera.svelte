@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { Spring } from 'svelte/motion';
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 	import logo from '$lib/images/svelte-logo.svg';
@@ -7,9 +8,7 @@
 
 <header>
 	<div class="corner">
-		<a href="https://svelte.dev/docs/kit">
 			<img src={logo} alt="SvelteKit" />
-		</a>
 	</div>
 
 	<nav>
@@ -35,7 +34,7 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
+		<a href="https://github.com/Fran-117/api_svelt_rick_and_morty">
 			<img src={github} alt="GitHub" />
 		</a>
 	</div>
