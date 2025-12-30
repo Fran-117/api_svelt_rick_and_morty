@@ -14,7 +14,7 @@
 
 	<footer>
 		<p>
-			visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to learn about SvelteKit
+			Vean donde se consiguieron los personajes de: <a href="https://rickandmortyapi.com/">Rick and Morty</a> y donde todos los: <a href="https://pokeapi.co/">Pokemons</a>
 		</p>
 	</footer>
 </div>
